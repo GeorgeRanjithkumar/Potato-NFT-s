@@ -40,11 +40,11 @@ const Navbar1 = () => {
           <Nav.Link className="navbar123" href="#collection">
             Collection
           </Nav.Link>
-          <Nav.Link className="navbar123" href="#roadmap">
+          <Nav.Link className="navbar123" href="#intro">
             Roadmap
           </Nav.Link>
 
-          <Button id="button" variant="link">
+          <Button id="button" variant="link" href="#connectwallet">
             Connect Wallet
           </Button>
         </Navbar>
@@ -139,7 +139,7 @@ const Navbar1 = () => {
       <div className="App-header1">
         <div className="App-card1">
           <div className="Nft12">
-            <div>
+            <div id="about">
               <h3>About us</h3>
               <h1 style={{ color: "#68CEEE", paddingBottom: "1.4rem" }}>
                 what is an NFT
@@ -169,7 +169,7 @@ const Navbar1 = () => {
               NFTs is making it easy to own and sell digital content.
             </div>
           </div>
-          <div>
+          <div id="collection">
             <Card.Img
               variant="top"
               style={{ position: "absolute", zIndex: "2", marginTop: "-8rem" }}
@@ -383,7 +383,7 @@ const Navbar1 = () => {
           </Container>
         </div>
       </div>
-      <div className="App-header">
+      <div id="intro" className="App-header">
         <Container>
           <Row>
             <Col style={{ textAlign: "left" }}>
@@ -517,7 +517,7 @@ const Navbar1 = () => {
           </Row>
         </Container>
       </div>
-      <div className="App-header1">
+      <div id="benefit" className="App-header1">
         <div className="App-card1">
           <Card
             style={{
@@ -921,7 +921,7 @@ const Navbar1 = () => {
                         creatorName
                       </h6>
                     </div>
-                    <div>
+                    <div id="connectwallet">
                       <button
                         style={{
                           backgroundColor: "#5652FB",
